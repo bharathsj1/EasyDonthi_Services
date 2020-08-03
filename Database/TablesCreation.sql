@@ -47,9 +47,7 @@ BEGIN
 		, [Password]		VARCHAR(500)	NULL
 		, PhoneNumber		VARCHAR(50)				
 		, Email				VARCHAR(50)		NULL
-		, NetWeight			INT				DEFAULT 0
-		, ManufacturingDate	DATETIME		NULL
-		, ProductImage		VARBINARY		NULL
+		, UserType			VARCHAR(50)		NULL
 		, IsActive			BIT				DEFAULT 1
 		, CreatedBY			INT
 		, CreatedDate		DATETIME		DEFAULT GETDATE()
